@@ -1,0 +1,27 @@
+ @keyframes resize {
+ 	0% { padding: 0; }
+ 	10% { padding: 0 10px; }
+ 	50% { padding: 0 30px; }
+ }
+
+ h1,p#one {
+ 	animation: resize 1s alternate infinite ease-in-out;
+ 	color: salmon;
+ 	margin-left: 30%;
+ }
+
+ #one {
+ 	color: salmon;
+ }
+
+ .two {
+ 	color: #273058;
+ }
+
+ p:hover {
+ 	font-size: 50px;
+ 	transition: all 0.01s;
+ }
+
+
+

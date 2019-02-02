@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YuCoding</title>
+</head>
+<body>
+<form>
+	<fieldset>	
+	<legend>Data Mahasiswa</legend>
+	<p>
+		<label for="full_name">Fullname	</label>		
+		<input type="text" id="full_name" name="fullname" Placeholder="Fullname">
+	</p>
+	<p>
+		<label for="email">Email Address</label>
+		<input type="email" id="email" name="email" placeholder="Email">
+	</p>
+	</fieldset>
+	<fieldset>
+		<legend>Informasi Mahasiswa</legend>
+		<p>
+			<label for="Fame">Photo : </label>
+			<input type="file">
+			<label for="date">TTL</label>
+			<input type="date">
+		</p>
+		<p>
+			<label for="user">Username</label>
+			<input type="text" placeholder="Username">
+			<label for="pass">Password</label>
+			<input type="Password" placeholder="Password">
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Data Tambahan</legend>
+		<label for="programming">Youtpreferred programming language</label>
+		<input type="text" list="programminglanguage" datalist id="programminglangs">
+		<select name="altProgramminglang">
+			  <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="python">Python</option>
+		</select><br>
+		 <form>
+                    <label for="gender">Gender:</label>
+                    <input id="male-radio" type="radio" name="gender" value="male">
+                    <label for="male-radio">Male</label>
+                    <input id="female-radio" type="radio" name="gender" value="female">
+                    <label for="female-radio">Female</label>
+          </form><br>
+          <form>
+                    <label for="skill">Skill:</label>
+                    <input id="writing-checkbox" type="checkbox" name="skill" value="writing">
+                    <label for="writing-checkbox">Writing</label>
+                    <input id="reading-checkbox" type="checkbox" name="skill" value="reading">
+                    <label for="reading-checkbox">Reading</label>
+                    <input type="submit" value="Submit">
+                </form>
+	
+
+	</fieldset>
+
+</form>
+</body>
+</html>
